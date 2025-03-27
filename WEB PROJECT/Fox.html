@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOXES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            background-color: #412a1c;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 80%;
+            margin: auto;
+            gap: 20px;
+        }
+
+        .text {
+            width: 50%;
+            text-align: justify;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image {
+            width: 40%;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .text, .image {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Fox</h1>
+
+    <div class="container">
+        <div class="text">
+            <p>
+                The bat-eared fox is another Kenyan animal that belongs to the dog family. Its large ears are its defining characteristic. It also feeds on insects like termites, lives alone or in small groups, and has six more teeth than other foxes.
+                The bat-eared fox can be found in savannahs, arid scrublands, and grassy plains. It lives in countries including Kenya, Tanzania, South Africa, Angola, and Zimbabwe. The IUCN lists the bat-eared fox as least concern and as having a stable population, though they are threatened by hunters, disease, and drought.
+            </p>
+            </div>
+
+        <div class="image">
+            <img src="fox.jpeg" alt="Fox Image">
+        </div>
+    </div>
+
+</body>
+
+</html>
